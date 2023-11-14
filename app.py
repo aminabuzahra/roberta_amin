@@ -5,6 +5,7 @@ from cache import get_from_cache, put_in_cache
 
 pipe = pipeline("text-classification", model="./roberta-base-go_emotions")
 
+
 app = Flask(__name__)
 
 
